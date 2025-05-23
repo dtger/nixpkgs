@@ -5,6 +5,7 @@
   dbt-postgres,
   dbt-redshift,
   dbt-snowflake,
+  dbt-databricks
 }:
 let
   adapters = {
@@ -13,6 +14,7 @@ let
       dbt-postgres
       dbt-redshift
       dbt-snowflake
+      dbt-databricks
       ;
   };
 in

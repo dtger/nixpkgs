@@ -115,6 +115,7 @@ buildPythonPackage rec {
         dbt-postgres
         dbt-redshift
         dbt-snowflake
+        dbt-databricks
 
       An example of building this package with a few adapters:
 

@@ -3299,6 +3299,8 @@ self: super: with self; {
 
   dbt-snowflake = callPackage ../development/python-modules/dbt-snowflake { };
 
+  dbt-databricks = callPackage ../development/python-modules/dbt-databricks { };
+
   dbus-client-gen = callPackage ../development/python-modules/dbus-client-gen { };
 
   dbus-deviation = callPackage ../development/python-modules/dbus-deviation { };
