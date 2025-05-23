@@ -2344,7 +2344,7 @@ with pkgs;
 
   mpd-sima = python3Packages.callPackage ../tools/audio/mpd-sima { };
 
-  nltk-data = lib.recurseIntoAttrs (callPackage ../tools/text/nltk-data { });
+  nltk-data = callPackage ../tools/text/nltk-data { };
 
   seabios-coreboot = seabios.override { ___build-type = "coreboot"; };
   seabios-csm = seabios.override { ___build-type = "csm"; };
@@ -4143,6 +4143,8 @@ with pkgs;
   pdd = python3Packages.callPackage ../tools/misc/pdd { };
 
   pdfminer = with python3Packages; toPythonApplication pdfminer-six;
+
+  pdfium-binaries-v8 = pdfium-binaries.override { withV8 = true; };
 
   pgsync = callPackage ../development/tools/database/pgsync { };
 

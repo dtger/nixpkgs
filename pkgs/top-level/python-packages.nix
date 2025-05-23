@@ -4811,6 +4811,8 @@ self: super: with self; {
 
   fastapi-mail = callPackage ../development/python-modules/fastapi-mail { };
 
+  fastapi-mcp = callPackage ../development/python-modules/fastapi-mcp { };
+
   fastapi-sso = callPackage ../development/python-modules/fastapi-sso { };
 
   fastavro = callPackage ../development/python-modules/fastavro { };
@@ -4846,6 +4848,8 @@ self: super: with self; {
   fastjet = callPackage ../development/python-modules/fastjet { };
 
   fastjsonschema = callPackage ../development/python-modules/fastjsonschema { };
+
+  fastmcp = callPackage ../development/python-modules/fastmcp { };
 
   fastmri = callPackage ../development/python-modules/fastmri { };
 
@@ -5693,6 +5697,8 @@ self: super: with self; {
   glean-sdk = callPackage ../development/python-modules/glean-sdk { };
 
   glfw = callPackage ../development/python-modules/glfw { };
+
+  gliner = callPackage ../development/python-modules/gliner { };
 
   glob2 = callPackage ../development/python-modules/glob2 { };
 
@@ -16736,6 +16742,8 @@ self: super: with self; {
 
   staticmap = callPackage ../development/python-modules/staticmap { };
 
+  staticvectors = callPackage ../development/python-modules/staticvectors { };
+
   statistics = callPackage ../development/python-modules/statistics { };
 
   statmake = callPackage ../development/python-modules/statmake { };
@@ -17908,6 +17916,8 @@ self: super: with self; {
   typed-ast = callPackage ../development/python-modules/typed-ast { };
 
   typed-settings = callPackage ../development/python-modules/typed-settings { };
+
+  typedunits = callPackage ../development/python-modules/typedunits { };
 
   typeguard = callPackage ../development/python-modules/typeguard { };
 
